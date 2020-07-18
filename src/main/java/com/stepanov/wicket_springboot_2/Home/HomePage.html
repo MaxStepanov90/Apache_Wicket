@@ -4,6 +4,17 @@
 <body>
 <a wicket:id="linkId">Form Page</a>
 <br/>
-<div wicket:id="label"></div>
+<form wicket:id="form">
+    <span wicket:id="name"></span>
+    <input type="text" wicket:id="nameText"/>
+    <br/>
+    <span wicket:id="surname"></span>
+    <input type="text" wicket:id="surnameText"/>
+    <br/>
+    <input type="submit" wicket:id="submit">
+</form>
+<div>
+    <span wicket:id="thanks"></span>
+</div>
 </body>
 </html>
