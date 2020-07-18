@@ -54,5 +54,12 @@ public class HomePage extends WebPage {
 
         OwnFragment ownFragment = new OwnFragment("content", "fragment", this);
         add(ownFragment);
+
+        Label label1 = new Label("test1", "test string 1");
+        add(label1);
+        Label label2 = new Label("test2", "test string 2");
+        add(label2);
+
+        label1.setVisible(false);
     }
 }
